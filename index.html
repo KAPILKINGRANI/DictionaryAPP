@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DictionaryApp</title>
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="container">
+            <h1>Dictionary</h1>
+        </div>
+    </nav>
+    <!-- MAIN SECTION -->
+    <section class="input container">
+        <h2>Find Concise Meaning Of Word !</h2>
+        <div class="form-wrap">
+            <div class="input-wrap">
+                <input type="text"placeholder="Type a Word"id="input">
+                <button id="search">Search</button>
+            </div>
+       </div>
+    </section>
+    <!-- Data Section -->
+    <section class="data container">
+        <span class="loading">Loading</span>
+        <p class="definition"></p>
+        <div class="audio"></div>
+        <div class="not-found"></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
